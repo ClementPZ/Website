@@ -1,0 +1,10 @@
+/*fonts*/
+@import url("");
+@import url("");
+/*components*/
+@import url("components/cards.css");
+@import url("components/buttons.css");
+@import url("components/navbar.css");
+@import url("components/footer.css");
+@import url("components/tabs.css");
+@import url("components/banner.css");
