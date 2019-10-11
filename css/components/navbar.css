@@ -1,0 +1,20 @@
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.navbar #logo {
+  flex: 1 0 50%;
+  position: absolute;
+  left: -16px;
+}
+.navbar ul {
+  position: absolute;
+  right: -16px;
+  width: 375px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

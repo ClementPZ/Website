@@ -11,11 +11,10 @@
 
 body {
   margin: 0 auto;
-  max-width: 1100px;
   text-align: center;
   color: ;
   font-family: ;
-  background-color: #FDF5F4;
+  background-color: white;
 }
 img {
   width: 100px;
@@ -50,4 +49,7 @@ a {
 }
 ul {
   list-style: none;
+}
+.container {
+  margin: 0 150px;
 }
