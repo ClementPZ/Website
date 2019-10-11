@@ -20,3 +20,6 @@
 .card-price {
   margin: 8px auto;
 }
+.card .btn {
+  margin: 0;
+}
