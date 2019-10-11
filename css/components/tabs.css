@@ -1,0 +1,12 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+.tab {
+  display: flex;
+/*  justify-content: space-between;*/
+  align-items: center;
+}
+.tab-text {
+  margin-left: 16px;
+}
