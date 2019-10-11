@@ -1,0 +1,19 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 0 1 31%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.card-image {
+  height: 70%;
+  width: auto;
+}
+.card-price {
+  margin: 8px auto;
+}
