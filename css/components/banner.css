@@ -1,0 +1,23 @@
+.banner {
+  margin: 24px auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.banner-image {
+  flex: 0 1 40%;
+  margin-left: 16px;
+}
+.banner-text {
+  flex: 0 1 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.banner-claim {
+
+}
+.banner-cta {
+
+}
+

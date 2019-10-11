@@ -1,18 +1,25 @@
 .navbar {
-  height: 100px;
-  display: flex;
+  width: 100%;
+  height: 72px;
+  background-color: white;
+/*  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+*/  display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
+  position: sticky;
+  top: 0;
 }
 .navbar #logo {
+  width: 96px;
   flex: 1 0 50%;
   position: absolute;
-  left: -16px;
+  left: 134px;
 }
 .navbar ul {
+  flex: 1 1 50%;
   position: absolute;
-  right: -16px;
+  right: 134px;
   width: 375px;
   display: flex;
   justify-content: space-between;
