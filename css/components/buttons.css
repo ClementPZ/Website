@@ -1,0 +1,26 @@
+.btn {
+  color: white;
+  background: radial-gradient(410.32% 868.45% at 99.48% 0.51%, #D61665 0%, #E074A0 100%, white 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.btn-sm {
+  height: 20px;
+  width: 60px;
+  border-radius: 30px;
+  font-size: 8px;
+}
+.btn-m {
+  height: 30px;
+  width: 90px;
+  border-radius: 45px;
+  font-size: 10px;
+}
+.btn-l {
+  height: 50px;
+  width: 150px;
+  border-radius: 75px;
+  font-size: 12px;
+}

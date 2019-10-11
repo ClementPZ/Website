@@ -2,7 +2,6 @@
   margin: 24px auto;
   display: flex;
   justify-content: space-between;
-
 }
 .banner-image {
   flex: 0 1 40%;
@@ -14,10 +13,11 @@
   flex-direction: column;
   justify-content: space-around;
 }
-.banner-claim {
-
+.banner-reverse {
+  flex-direction: row-reverse;
 }
-.banner-cta {
-
+.banner-reverse .banner-text {
+  text-align: right;
 }
+
 
