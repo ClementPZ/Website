@@ -19,7 +19,10 @@
 .banner-reverse .banner-text {
   align-items: flex-end;
   text-align: right;
-
+}
+.banner-reverse .banner-image {
+  margin-right: 16px;
+  margin-left: 0;
 }
 
 

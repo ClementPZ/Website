@@ -52,13 +52,21 @@ a {
   text-decoration: none;
   color: #14020A;
   display: block;
+  text-transform: uppercase;
 }
 ul {
   list-style: none;
 }
 .container {
+  background-color: white;
   margin: 0 150px;
 }
-.shadow {
-  box-shadow: 0 0 30px 0 rgba(1,1,1,0.1)
+.shadow-l {
+  box-shadow: 0 0 20px 0 rgba(1,1,1,0.1)
+}
+.shadow-m {
+  box-shadow: 0 0 15px 0 rgba(1,1,1,0.1)
+}
+.shadow-s {
+  box-shadow: 0 0 10px 0 rgba(1,1,1,0.1)
 }
