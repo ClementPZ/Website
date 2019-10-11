@@ -1,6 +1,5 @@
 .btn {
   color: white;
-  border: 1px solid transparent;
   background: radial-gradient(410.32% 868.45% at 99.48% 0.51%, #D61665 0%, #E074A0 100%, white 50%);
   display: flex;
   justify-content: center;
@@ -12,6 +11,7 @@
   color: #D61D69;
   background: white;
   border: 1px solid #D61D69;
+  box-sizing: border-box;
 }
 .btn-sm {
   height: 20px;

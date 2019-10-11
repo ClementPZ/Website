@@ -1,17 +1,18 @@
 .cards {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  max-width: 100%;
 }
 .card {
-  margin: 0 32px 32px 32px;;
-  width: auto;
+  margin: 0 32px 32px 32px;
   height: 500px;
-  flex-shrink: 1;
+  width: auto;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
+  box-sizing: border-box;
 }
 .card-image {
   height: 70%;
@@ -23,3 +24,30 @@
 .card .btn {
   margin: 0;
 }
+@media(max-width: 1333px) {
+  .card {
+    flex-basis: 33.33%;
+  }
+}
+@media(max-width: 1073px) {
+   .card {
+    flex-basis: 33.33%;
+  }
+}
+@media(max-width: 815px) {
+  .card {
+    flex-basis: 50%;
+  }
+/*  .container {
+    margin: 0 40px;
+  }*/
+}
+@media(max-width: 555px) {
+  .card {
+    flex-basis: 100%;
+  }
+/*  .container {
+    margin: 0px;
+  }*/
+}
+
