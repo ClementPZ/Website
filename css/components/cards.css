@@ -4,7 +4,7 @@
   flex-wrap: wrap;
 }
 .card {
-  flex: 0 1 31%;
+  flex: 0 1 250px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;

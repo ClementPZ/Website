@@ -17,7 +17,9 @@
   flex-direction: row-reverse;
 }
 .banner-reverse .banner-text {
+  align-items: flex-end;
   text-align: right;
+
 }
 
 
