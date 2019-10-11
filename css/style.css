@@ -1,6 +1,6 @@
 /*fonts*/
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
-/*@import url("");*/
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
 /*components*/
 @import url("components/cards.css");
 @import url("components/buttons.css");
@@ -25,13 +25,13 @@ h1, h2, h3, h4, h5, p, ul, li {
 /*300 light, 400 regular,
 700 bold,900 boold */
 h1 {
-  font-size: 40px;
+  font-size: 56px;
   font-weight: 300;
 }
 h2 {
   font-size: 32px;
   font-weight: 400;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 h3 {
   font-size: 24px;
@@ -55,6 +55,9 @@ a {
   display: block;
   text-transform: uppercase;
 }
+a:hover {
+  color: #D61D69;
+}
 ul {
   list-style: none;
 }
@@ -63,7 +66,7 @@ ul {
   margin: 0 150px;
 }
 .margin {
-  margin: 24px auto;
+  margin: 32px auto;
 }
 .shadow-l {
   box-shadow: 0 0 20px 0 rgba(1,1,1,0.1)

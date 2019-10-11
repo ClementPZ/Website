@@ -4,11 +4,13 @@
   flex-wrap: wrap;
 }
 .card {
-  flex: 0 1 250px;
-  margin-bottom: 16px;
+  margin: 0 32px 32px 32px;;
+  width: auto;
+  height: 500px;
+  flex-shrink: 1;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .card-image {

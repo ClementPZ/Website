@@ -13,14 +13,18 @@
   width: 96px;
   flex: 1 0 50%;
   position: absolute;
-  left: 134px;
+  left: 128px;
 }
 .navbar ul {
   flex: 1 1 50%;
   position: absolute;
-  right: 134px;
+  right: 128px;
   width: 375px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.active {
+  color: #D61D69;
+  border-bottom: 1px solid #D61D69;
 }
