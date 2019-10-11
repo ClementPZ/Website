@@ -1,6 +1,6 @@
 /*fonts*/
-/*@import url("");
-@import url("");*/
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+/*@import url("");*/
 /*components*/
 @import url("components/cards.css");
 @import url("components/buttons.css");
@@ -12,8 +12,8 @@
 body {
   margin: 0 auto;
   text-align: center;
-  color: ;
-  font-family: ;
+  color: #14020A;
+  font-family: 'Lato', sans-serif;
   background-color: white;
 }
 img {
@@ -23,28 +23,31 @@ h1, h2, h3, h4, p, ul, li {
   margin: 0;
   padding: 0;
 }
+/*300 light, 400 regular,
+700 bold,900 boold */
 h1 {
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 48px;
+  font-weight: 300;
 }
 h2 {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 400;
 }
 h3 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
 }
 h4 {
   font-size: 16px;
   font-weight: 700;
 }
 p {
-  font-size: 16px;
-  font-weight: ;
+  font-size: 8px;
+  font-weight: 400;
 }
 a {
   text-decoration: none;
+  color: #14020A;
   font-size: 8px;
 }
 ul {
