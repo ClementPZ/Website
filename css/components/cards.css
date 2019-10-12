@@ -1,6 +1,7 @@
 .cards {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-flow: row wrap;
   max-width: 100%;
 }
@@ -35,19 +36,24 @@
   }
 }
 @media(max-width: 815px) {
+  .cards {
+    align-items: center;
+    flex-direction: column;
+  }
+
   .card {
     flex-basis: 50%;
   }
-/*  .container {
+  .container {
     margin: 0 40px;
-  }*/
+  }
 }
 @media(max-width: 555px) {
   .card {
     flex-basis: 100%;
   }
-/*  .container {
+  .container {
     margin: 0px;
-  }*/
+  }
 }
 
